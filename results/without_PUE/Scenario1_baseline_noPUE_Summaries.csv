@@ -1,0 +1,13 @@
+,Population2025,NewConnections2025,Capacity2025 (MW),Investment2025 (million USD),Population2030,NewConnections2030,Capacity2030 (MW),Investment2030 (million USD)
+Grid_dens,1348817,622215,21.06,243.89,1459053,114719,11.41,51.46
+Grid_new,0,0,0.0,0.0,0,0,0.0,0.0
+SA_PV,0,0,0.0,0.0,322640,322640,4.8,10.94
+MG_Diesel,0,0,0.0,0.0,0,0,0.0,0.0
+MG_PV,0,0,0.0,0.0,0,0,0.0,0.0
+MG_Wind,0,0,0.0,0.0,0,0,0.0,0.0
+MG_Hydro,0,0,0.0,0.0,0,0,0.0,0.0
+MG_PV_Hybrid,0,0,0.0,0.0,0,0,0.0,0.0
+MG_Wind_Hybrid,0,0,0.0,0.0,0,0,0.0,0.0
+Grid_ext,0,0,0.0,0.0,0,0,0.0,0.0
+Non-electrified,308331,308331,0.0,0.0,0,0,0.0,0.0
+Total,1657149,930547,21.06,243.89,1781693,437359,16.21,62.4
