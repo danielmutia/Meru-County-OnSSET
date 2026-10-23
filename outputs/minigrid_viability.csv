@@ -1,0 +1,16 @@
+Run,Demand,Min. households,Settlements,Households,Median MG LCOE,Median grid-extension LCOE,MG cheaper than grid extension,Least-cost mini-grids,At or below tariff,Median tariff gap
+"Low (2,500)",With PUE,50,27,4450,0.45,0.8,27,8,0,0.3
+"Low (2,500)",With PUE,75,16,3796,0.46,1.12,16,0,0,0.31
+"Low (2,500)",With PUE,100,12,3456,0.48,1.24,12,0,0,0.32
+"Central (4,000)",Without PUE,50,27,4450,0.81,1.72,27,0,0,0.65
+"Central (4,000)",With PUE,50,27,4450,0.66,0.8,21,3,0,0.5
+"Central (4,000)",Without PUE,75,16,3796,0.75,1.63,16,0,0,0.59
+"Central (4,000)",With PUE,75,16,3796,0.68,1.12,14,0,0,0.53
+"Central (4,000)",Without PUE,100,12,3456,0.74,1.6,12,0,0,0.59
+"Central (4,000)",With PUE,100,12,3456,0.69,1.24,12,0,0,0.53
+"High (5,200)",With PUE,50,27,4450,0.81,0.8,15,0,0,0.65
+"High (5,200)",With PUE,75,16,3796,0.86,1.12,12,0,0,0.7
+"High (5,200)",With PUE,100,12,3456,0.86,1.24,12,0,0,0.7
+"PUE 50% (4,000)",With PUE,50,27,4450,0.72,1.08,26,0,0,0.56
+"PUE 50% (4,000)",With PUE,75,16,3796,0.72,1.32,16,0,0,0.56
+"PUE 50% (4,000)",With PUE,100,12,3456,0.71,1.38,12,0,0,0.56

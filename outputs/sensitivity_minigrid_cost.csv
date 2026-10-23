@@ -1,0 +1,4 @@
+Mini-grid cost case,"Demand increase, new connections (%)",Mini-grids,Mini-grid capacity (kW),Grid capacity (kW),Total investment (M USD),Change in investment (M USD),Rural grid USD/kW,Rural off-grid USD/kW,All technologies USD/kW
+"Low (2,500)",31.8,111,1688,34927,319.49,13.2,17390,2224,7293
+"Central (4,000)",31.8,46,594,35495,321.23,14.94,16988,2217,7421
+"High (5,200)",31.8,24,287,35654,321.88,15.59,16922,2160,7462
