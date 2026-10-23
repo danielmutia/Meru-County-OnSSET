@@ -1,0 +1,73 @@
+Variable,Value,Source,Comments,Description
+Start_year,2020,,,
+End_year,2030,,,
+End year electrification rate target,1,,,
+Intermediate target year,2025,,,
+Intermediate electrification rate target,0.7,,,
+PV cost adjustment factor,1,,,
+Urban target tier,4,,,
+PUE start year,2030,,,"PUE and community-service loads added once, in this year"
+Crop farming standalone,True,,,Crop farming taken out of the cluster load and costed as farm-level solar irrigation
+PUE scale,1.0,,,Share of planned PUE demand realised (sensitivity)
+Cost factors,{},,,One-at-a-time capital-cost sensitivity multipliers (empty = central)
+GridCellArea fixed,False,,,GridCellArea converted from deg2 x 1e-6 to km2
+Mini-grid max diesel share,0,,,0 = PV + battery only
+mg_connection_cost_per_hh,140.0,,,Mini-grid connection cost (USD/household)
+mg_site_fixed_cost,0,,,Fixed cost per hybrid mini-grid site (USD)
+Rural target tier,2,,,
+Prioritization,5,,,"5 = least cost, 4 = forced grid within buffer only, 6 = forced grid within buffer & least cost out of the buffer zone"
+Auto intensification distance,2,,,Buffer distance (km) for automatic intensification if choosing prioritization 1
+discount_rate,0.08,,,
+pop_threshold,0,,,
+pop_start_year,1545714,,,the population in the base year (e.g. 2018)
+pop_end_year,1781694,,,the projected population in the end year (e.g. 2030)
+urban_ratio_start_year,0.169,,,the urban population population ratio in the base year (e.g. 2018)
+urban_ratio_end_year,0.209,,,the urban population population ratio in the end year (e.g. 2030)
+num_people_per_hh_urban,3.6,,,the number of people per household expected in the end year (e.g. 2030)
+num_people_per_hh_rural,3.6,,,the number of people per household expected in the end year (e.g. 2030)
+elec_ratio_start_year,0.42,,,the electrification rate in the base year (e.g. 2018)
+urban_elec_ratio,0.7,,,urban electrification rate in the base year (e.g. 2018)
+rural_elec_ratio,0.2,,,rural electrification rate in the base year (e.g. 2018)
+grid_generation_cost,0.086,,,This is the grid cost electricity USD/kWh as expected in the end year of the analysis
+grid_power_plants_capital_cost,1363.0,,,The cost in USD/kW to for capacity upgrades of the grid-connected power plants
+grid_losses,0.24,,,The fraction of electricity lost in transmission and distribution (percentage)
+base_to_peak,0.7,,,The ratio of base grid demand to peak demand (percentage)
+existing_grid_cost_ratio,0.1,,,The additional cost per round of electrification (percentage)
+diesel_price,0.85,,,This is the diesel price in USD/liter as expected in the end year of the analysis
+sa_diesel_capital_cost,{inf: 938.0},,,Stand-alone Diesel capital cost (USD/kW) as expected in the years of the analysis
+mg_diesel_capital_cost,{inf: 721.0},,,Mini-grid Diesel capital cost (USD/kW) as expected in the years of the analysis
+mg_pv_capital_cost,{inf: 4000.0},,,Mini-grid PV capital cost (USD/kW) as expected in the years of the analysis
+mg_wind_capital_cost,{inf: 3902.0},,,Mini-grid Wind capital cost (USD/kW) as expected in the years of the analysis
+mg_hydro_capital_cost,{inf: 2902},,,Mini-grid Hydro capital cost (USD/kW) as expected in the years of the analysis
+sa_pv_capital_cost_1,9000.0,,,Stand-alone PV capital cost (USD/kW) for household systems under 20 W
+sa_pv_capital_cost_2,4800.0,,,Stand-alone PV capital cost (USD/kW) for household systems between 21-50 W
+sa_pv_capital_cost_3,1900.0,,,Stand-alone PV capital cost (USD/kW) for household systems between 51-100 W
+sa_pv_capital_cost_4,1500.0,,,Stand-alone PV capital cost (USD/kW) for household systems between 101-200 W
+sa_pv_capital_cost_5,999999999,,,Stand-alone PV capital cost (USD/kW) for household systems over 200 W
+mv_line_cost,30000.0,,,Cost of MV lines in USD/km
+lv_line_cost,13700.0,,,Cost of LV lines in USD/km
+mv_line_capacity,33,,,Capacity of MV lines in kW/line
+lv_line_capacity,0.42,,,Capacity of LV lines in kW/line
+lv_line_max_length,0.6,,,Maximum length of LV lines (km)
+hv_line_cost,90000.0,,,Cost of HV lines in USD/km
+mv_line_max_length,50,,,Maximum length of MV lines (km)
+hv_lv_transformer_cost,338800.0,,,Cost of HV/MV transformer (USD/unit)
+mv_increase_rate,0.1,,,percentage
+max_grid_extension_dist,50,,,Maximum distance that the grid may be extended by means of MV lines
+annual_new_grid_connections_limit_intermediate,999999999,,,This is the maximum amount of new households that can be connected to the grid in one year (thousands)
+annual_new_grid_connections_limit_end,999999999,,,This is the maximum amount of new households that can be connected to the grid in one year (thousands)
+grid_capacity_limit_end,60,,,This is the maximum generation capacity that can be added to the grid in one year (MW)
+grid_capacity_limit_intermediate,54,,,This is the maximum generation capacity that can be added to the grid in one year (MW)
+GIS data: Administrative boundaries,,,,Delineates the boundaries of the analysis.
+GIS data: DEM,,,,"Filled DEM (elevation) maps are use in a number of processes in the analysis (Energy potentials, restriction zones, grid extension suitability map etc.)."
+GIS data: Hydropower,,,,Points showing potential mini/small hydropower potential.  Provides power availability in each identified point.
+GIS data: Land Cover,,,,"Land cover maps are use in a number of processes in the analysis (Energy potentials, restriction zones, grid extension suitability map etc.)."
+GIS data: Night-time Lights,,,,"Dataset used to,identify and spatially calibrate the currently electrified/non-electrified population."
+GIS data: Population,,,,Spatial identification and quantification of the current (base year) population. This dataset sets the basis of the ONSSET analysis as it is directly connected with the electricity demand and the assignment of energy access goals
+GIS data: Roads,,,,Current road infrastructure is used in order to specify grid extension suitability.
+GIS data: Solar GHI,,,,Provide information about the Global Horizontal Irradiation (kWh/m2/year) over an area. This is later used to identify the availability/suitability of Photovoltaic systems.
+GIS data: Substations,,,,Current Substation infrastructure is used in order to specify grid extension suitability.
+GIS data: Existing grid,,,,Current grid network
+GIS data: Planned grid,,,,Planned/committed grid network extensions
+GIS data: Travel-time,,,,"Visualizes spatially the travel time required to reach from any individual cell to the closest town with population more than 50,000 people."
+GIS data: Wind velocity,,,,Provide information about the wind velocity (m/sec) over an area. This is later used to identify the availability/suitability of wind power (using Capacity factors).
